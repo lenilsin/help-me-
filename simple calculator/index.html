@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>jogo</title>
+    <meta charset="utf-8" />
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div id="first">
+      <form>
+        <input type="number" id="screen"/>
+        <input type="number" id="screen1"/>
+      </form>
+      <form id="buttons">
+        <input type="button" value="+" class="btn" onclick='operation(1)'/>
+        <input type="button" value="-" class="btn" onclick='operation(2)'/>
+        <input type="button" value="*" class="btn" onclick='operation(3)'/>
+        <input type="button" value="/" class="btn" onclick='operation(4)'/>
+        <input type="button" value="reset" class="btn" onclick='operation(5)'/>
+        <input type="text" class="btn" id="result" readonly/>
+      </form>
+    </div>
+    <script src="java.js"></script>
+  </body>
+</html>
